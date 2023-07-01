@@ -1,5 +1,9 @@
 import java.util.*;
-
+//Time Complexity
+//BestCase :O(nlogn)
+//AverageCase:O(nlogn)
+// WorstCase:O(n^2)
+//Space Complexity: O(1)
 public class QuickSort{
         private static void quickSort(int[] nums, int start, int end) {
                 if(start<end){
